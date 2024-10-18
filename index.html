@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">Food</div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="buttons">
+          <button class="btn">Sign In</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-count">0</span>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+
+      <main>
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Eng yaxshi taomingizga buyurtma bering</h1>
+            <p>
+              Bizning mazali taomlarimiz sizni kutmoqda, biz har doim yangi
+              taomlar bilan yoningizdamiz.
+            </p>
+
+            <button class="btn btn-primary">Yanada ko'proq</button>
+          </div>
+
+          <div class="hero-image">
+            <img src="images/1.png" alt="delicius food" id="heroImage" />
+          </div>
+        </section>
+
+        <section class="popular-dishes">
+          <h2>Mashhur taomlar</h2>
+
+          <div class="dishes">
+            <div class="dish" data-img="images/5.png">
+              <img src="images/5.png" alt="buger" />
+              <p>Onion with Cheese</p>
+              <span class="prise">$24.00</span>
+              <button class="add-to-cart" data-name="be" data-price="$24.00">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="dish" data-img="images/4.png">
+              <img src="images/4.png" alt="buger" />
+              <p>Onion with Cheese</p>
+              <span class="prise">$24.00</span>
+              <button class="add-to-cart" data-name="br" data-price="$24.00">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="dish" data-img="images/3.png">
+              <img src="images/3.png" alt="buger" />
+              <p>Onion with Cheese</p>
+              <span class="prise">$24.00</span>
+              <button class="add-to-cart" data-name="ber" data-price="$24.00">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+            <div class="dish" data-img="images/2.png">
+              <img src="images/2.png" alt="buger" />
+              <p>Onion with Cheese</p>
+              <span class="prise">$24.00</span>
+              <button class="add-to-cart" data-name="berr" data-price="$24.00">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 17:17 -->
